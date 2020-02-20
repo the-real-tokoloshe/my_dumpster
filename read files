@@ -1,0 +1,11 @@
+words_file = 'C:\\Users\\ottop\\Downloads\\Python course\\engmix\\engmix.txt'
+
+def read_words(words_file):
+  with open(words_file, 'r') as f:
+    ret = []
+    for line in f:
+      ret += line.split()
+    return ret
+
+my_words =read_words(words_file)
+print(my_words)
