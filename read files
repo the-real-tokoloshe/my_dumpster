@@ -1,3 +1,5 @@
+# reads a text file which has a seperate word on each line and returns a list which contains all the words as elements
+
 words_file = 'C:\\Users\\ottop\\Downloads\\Python course\\engmix\\engmix.txt'
 
 def read_words(words_file):
